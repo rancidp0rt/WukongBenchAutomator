@@ -1,0 +1,10 @@
+// Пример для --profiles: стандартные CPU- и GPU-тесты плюс серия разрешений,
+// чтобы увидеть, как видеокарта масштабируется от 1080p до 4K.
+[
+  "cpu",
+  "gpu",
+  { "id": "gpu-1080p", "title": "GPU 1080p", "kind": "gpu", "resolution": "1920x1080", "quality": 5, "rayTracing": "auto" },
+  { "id": "gpu-1440p", "title": "GPU 1440p", "kind": "gpu", "resolution": "2560x1440", "quality": 5, "rayTracing": "auto" },
+  { "id": "gpu-4k",    "title": "GPU 4K",    "kind": "gpu", "resolution": "3840x2160", "quality": 5, "rayTracing": "auto" },
+  { "id": "high-no-rt", "title": "Высокие без RT", "resolution": "auto", "quality": 3, "rayTracing": false }
+]

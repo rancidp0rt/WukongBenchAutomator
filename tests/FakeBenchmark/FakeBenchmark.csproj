@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!-- Имитация Benchmark Tool для сквозной проверки без игры: процесс с тем же именем,
+       окно с «кнопками» в тех же местах, запись JSON-результата в %TEMP%\b1\BenchMarkHistory\Tool. -->
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AssemblyName>b1-Win64-Shipping</AssemblyName>
+    <RootNamespace>FakeBenchmark</RootNamespace>
+  </PropertyGroup>
+
+</Project>

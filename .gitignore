@@ -1,0 +1,13 @@
+# только в корне: на Windows results/ без слеша задел бы src/.../Results/
+/results/
+/publish/
+/dist/
+
+bin/
+obj/
+TestResults/
+*.user
+*.suo
+.vs/
+.vscode/
+.idea/
